@@ -17,4 +17,3 @@ personalMovieDB.movies[a] = b;
 personalMovieDB.movies[c] = d;
 
 console.log(typeof (personalMovieDB.genres));
-
