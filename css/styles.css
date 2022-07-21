@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    background: url("../images/pattern.png");
+
+    font-family: Tahoma;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+a {
+    color: #315fc7;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #ff0000;
+}
+
+.card {
+    width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+
+    background-color:
+    #fff;
+    box-shadow: 0 5px 10px 
+    #ccc;
+    border-radius: 10px;
+}
+
+.card-photo {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.car-title {
+    font-size: 20px;
+    text-align: center;
+    color: #5067bd;
+}
+
+.card-text {
+    font-size: 14px;
+}
+
+.card-subtitle {
+    font-size: 18px;
+    color: #315fc7;
+}
+
+.card-list {
+    padding-left: 0;
+    list-style-position: inside;
+    font-size: 14px;
+}
