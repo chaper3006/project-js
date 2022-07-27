@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    background: url("../images/pattern.png");
+    font-family:'Segoe UI', 
+                 Geneva, 
+                 Verdana, 
+                 sans-serif ;
+    line-height: 1.5;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.card-car {
+    border-radius: 10px;
+    margin: 30px ;
+    padding: 15px;
+    border: 1px solid #ccc;
+    background: #fff;
+    display: block;
+}
+
+.card-car-img img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.card-car-title {
+    font-size: 21px;
+    text-align: center;
+}
+
+.card-car h2 {
+    margin-bottom: 10px;
+}
+
+.card-car-price::before {
+    content: '\25CF';
+    margin-right: 10px;
+    font-size: 20;
+}
+
+a {
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+.table {
+    display: flex;
+    width: 100%;
+    font-size: 15px;
+    max-width: 380px;
+    flex-direction:column;
+}
+
+.table__row {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.table__col {
+   width: 50%;
+}
+
+.table__col:nth-child(1) {
+    color: #838181;
+}
